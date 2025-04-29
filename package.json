@@ -1,0 +1,53 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development API_URL=http://localhost:8000 APP_URL=http://localhost:3000 COOKIES_DOMAIN=localhost nuxt dev",
+    "build": "cross-env NODE_ENV=production API_URL=https://api.catsentence.com APP_URL=https://catsentence-dev.catsentence.com COOKIES_DOMAIN=.catsentence.com nuxt build",
+    "generate": "cross-env NODE_ENV=production API_URL=https://api.catsentence.com APP_URL=https://fillme-dev.catsentence.com COOKIES_DOMAIN=.catsentence.com nuxt generate",
+    "start": "nuxt start",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@primeuix/themes": "^1.0.0",
+    "@vueuse/core": "^12.8.2",
+    "axios": "^1.7.7",
+    "cross-env": "^7.0.3",
+    "firebase": "^11.5.0",
+    "imagekit": "^6.0.0",
+    "imagekit-javascript": "^4.0.1",
+    "js-cookie": "^3.0.5",
+    "nuxt": "^3.14.159",
+    "pinia": "^2.2.6",
+    "primevue": "^4.3.3",
+    "react-dnd-html5-backend": "^16.0.1",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue3-dnd": "^2.1.0",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@iconify/vue": "^4.1.2",
+    "@nuxt/eslint": "^0.7.5",
+    "@vue/compiler-sfc": "^3.5.13",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-vue": "^9.32.0",
+    "nuxt-purgecss": "^2.0.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.7.3",
+    "vite-plugin-purgecss": "^0.2.13",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vuetify": "^3.7.4"
+  }
+}

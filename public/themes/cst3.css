@@ -1,0 +1,53 @@
+/* Main */
+.bg-main {
+    background-color: #525252;
+}
+
+.color-main {
+    color: #525252;
+}
+
+/* Primary */
+.bg-primer {
+    background-color: #2D2F31 !important;
+}
+
+.color-primer {
+    color: #2D2F31;
+}
+
+/* second */
+.bg-second {
+    background-color: #C5B4E3;
+}
+
+.color-second {
+    color: #C5B4E3;
+}
+
+.border-second {
+    border-color: #C5B4E3;
+}
+
+/* Next */
+.bg-next {
+    background-color: #939EAE;
+}
+
+.color-nextu {
+    color: #939EAE !important;
+}
+
+.border-next {
+    border-color: #939EAE;
+}
+
+/* Color Wrong */
+.color-red {
+    color: #FA4032;
+}
+
+/* Color White */
+.color-white {
+    color: #FBFBFB;
+}
